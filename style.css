@@ -6,7 +6,7 @@ body, h1, h2, p {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ff0000;
+    background-color: #282828;;
     color: #fff;
 }
 
@@ -14,11 +14,11 @@ body {
     background-color: #fff;
     text-align: center;
     padding: 100px 0;
-    color: #ff0000;
+    color: #282828;
 }
 
 .header-content {
-    background-color: #ff0000;
+    background-color: #282828;
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
@@ -36,7 +36,7 @@ body {
 }
 
 nav {
-    background-color: #ff0000;
+    background-color: #282828;
     color: #fff;
     padding: 10px 0;
 }
@@ -79,7 +79,7 @@ nav {
 
 .video-title {
     font-size: 24px;
-    color: #ff0000;
+    color: #282828;
 }
 
 .video-wrapper {
@@ -102,7 +102,7 @@ nav {
 
 .about-title {
     font-size: 24px;
-    color: #ff0000;
+    color: #282828;
 }
 
 .about-description {
@@ -110,7 +110,7 @@ nav {
 }
 
 .footer {
-    background-color: #ff0000;
+    background-color: #282828;
     color: #fff;
     text-align: center;
     padding: 10px 0;
