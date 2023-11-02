@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    margin: auto;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    /* Styles for screens smaller than 768px (mobile) */
+    /* ... */
+    
+
+    #container {
+        width: 100%;
+    }
+  }
+
+@media screen and (min-width: 769px) {
+    /* Styles for screens wider than 768px (desktop) */
+    /* ... */
+
+    #container {
+        width: 60%;
+    }
+  }
+
+#container {
+    height: 1000px;
+    background-color: white;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#header {
+
+    width: 100%;
+    height: 350px;
+    background-color: bisque;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    width: 400px;
+    display: block;
+    margin: 50px auto;
+    
+    cursor: pointer;
+    transition: 1s;
+}
+
+.logo:hover {
+    width: 500px;
+
+    margin-top: 25px;
+}
+
+button {
+    padding: 20px;
+    width: 200px;
+
+    margin: 0;
+    color: white;
+    background-color: orange;
+    border-radius: 10000px;
+    outline: 0;
+    border: 0;
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: orangered;
+}
