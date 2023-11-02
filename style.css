@@ -6,28 +6,36 @@ body, h1, h2, p {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: #f1f1f1;
+    color: #333;
 }
 
 .header {
     background-image: url('header-background.jpg');
     background-size: cover;
     text-align: center;
-    padding: 100px 0;
+    padding: 200px 0;
+    color: #fff;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 .header-title {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
 .header-subtitle {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 nav {
-    background-color: #222;
+    background-color: #333;
     color: #fff;
     padding: 10px 0;
 }
@@ -46,6 +54,7 @@ nav {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    font-size: 16px;
     transition: color 0.3s;
 }
 
@@ -58,6 +67,8 @@ nav {
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .video-section {
@@ -96,7 +107,7 @@ nav {
 }
 
 .footer {
-    background-color: #222;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
